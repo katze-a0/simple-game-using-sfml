@@ -1,11 +1,6 @@
 #pragma once
 
-#include<iostream>
-#include <SFML/Graphics.hpp>
-#include<SFML/System.hpp>
-#include<SFML/Window.hpp>
-#include<SFML/Audio.hpp>
-#include<SFML/Network.hpp>
+ #include "state.h"
   
   /*class that acts as a game engine*/
   class Game{
@@ -15,6 +10,8 @@
        sf::RenderWindow* window;
        sf::VideoMode videomode;
        sf::Event event;
+       sf::Clock dtclock;
+       float dt;
        sf::RectangleShape enemy;   
 
     void initvariables(){
@@ -68,11 +65,18 @@
                   this->window->close();
                   break;
  
-            }
+            } 
                
         } 
 
 
+      }
+      void updateDt(){
+        /*updates time taken to render*/
+        this->dt= this->dtclock.getElapsedTime().asSeconds();
+
+        system("cls");
+        std::cout<<this->dt<<"\n";
       }
 
       void update(){
@@ -94,6 +98,16 @@
         this->window->draw(this->enemy);
         this->window->display();
 
+      }
+
+      void run(){
+        while(this->window->isOpen()){
+
+
+        this->updateDt();
+        this->update();
+        this->render();
+        }
       }
 
     

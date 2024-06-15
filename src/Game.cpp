@@ -45,3 +45,7 @@ void Game::render(){}
 
 /*this ->window->clear(sf::Color(255,200,200,255));
 //draw objects*/
+
+void Game::updateDt()
+{
+}
