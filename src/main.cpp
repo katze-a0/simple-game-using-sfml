@@ -55,6 +55,9 @@ int main(){
 using namespace std;
 int main()
 {   
+
+    //initialize random number
+    std::srand(static_cast<unsigned>(time(NULL)));
    //init game engine
    Game game;
       while (game.running())

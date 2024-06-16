@@ -1,6 +1,14 @@
 #pragma once
 
- #include "state.h"
+ #include<iostream>
+ #include<vector>
+#include<ctime>
+
+ #include <SFML/Graphics.hpp>
+#include<SFML/System.hpp>
+#include<SFML/Window.hpp>
+#include<SFML/Audio.hpp>
+#include<SFML/Network.hpp>
   
   /*class that acts as a game engine*/
   class Game{
@@ -10,12 +18,32 @@
        sf::RenderWindow* window;
        sf::VideoMode videomode;
        sf::Event event;
-       sf::Clock dtclock;
-       float dt;
+       
+      //game logic
+      int points;
+      float enemySpawnTimer;
+      float enemySpawnTimerMax;
+      int maxEnemies;
+       //mouse positions
+       sf::Vector2i mousepositions;
+       sf::Vector2f mouseposview;
+
+        std::vector<sf::RectangleShape> enemies;
+       
        sf::RectangleShape enemy;   
 
     void initvariables(){
       this ->window =nullptr;
+
+      //game logic
+      int points;
+      float enemySpawnTimer;
+      float enemySpawnTimerMax;
+      int maxEnemies;
+      this->points=0;   
+      this->enemySpawnTimerMax= 10.f;
+      this->enemySpawnTimer=this->enemySpawnTimerMax;
+      this->maxEnemies=12;
     }
     void initwindow(){
        this ->videomode.height =600;
@@ -23,7 +51,7 @@
     //this->get
      
     this ->window =new sf::RenderWindow(this ->videomode, "SFML works!",sf::Style::Titlebar | sf::Style::Close);
-    this->window->setFramerateLimit(144);
+    this->window->setFramerateLimit(60);
     }
 
     public:
@@ -45,8 +73,8 @@
          this->enemy.setSize(sf::Vector2f(100.f,100.f));
          this->enemy.setScale(sf::Vector2f(0.5f,0.5f));
          this->enemy.setFillColor(sf::Color::Cyan);
-         this->enemy.setOutlineColor(sf::Color::Green);
-         this->enemy.setOutlineThickness(2.f);
+         /*this->enemy.setOutlineColor(sf::Color::Green);
+         this->enemy.setOutlineThickness(2.f);*/
       };
       const bool running() const{ 
         return this ->window->isOpen();
@@ -71,40 +99,92 @@
 
 
       }
-      void updateDt(){
-        /*updates time taken to render*/
-        this->dt= this->dtclock.getElapsedTime().asSeconds();
+      
+     void updateEnemies(){ 
+      //updating the timer for enemy spawning
+      if(this->enemies.size()<this->maxEnemies){
+      if(this->enemySpawnTimer>=this->enemySpawnTimerMax)
+          {
+            //spawn the enemy and reset the timer
+            this->spawnEnemy();
+          this->enemySpawnTimer=0.f;}
+          else
+          this->enemySpawnTimer+=1.f;
+     }
+     
+     //moves the enemies
+     for(int i=0;i<this->enemies.size();i++)
+     {
+      bool deleted=false;
+      this->enemies[i].move(0.f,5.f);
 
-        system("cls");
-        std::cout<<this->dt<<"\n";
+      //check if clicked upon
+      if(sf::Mouse::isButtonPressed(sf::Mouse::Left))
+      { 
+        if(this->enemies[i].getGlobalBounds().contains(this->mouseposview))
+        {
+          deleted=true;
+
+          //gain points
+          this->points+=10.f;
+        }
       }
-
+      //incase enemy goes past the bottom of screen
+      if(this->enemies[i].getPosition().y>this->window->getSize().y)
+      {
+        deleted=true;
+      }
+      if(deleted)
+      {
+        this->enemies.erase(this->enemies.begin()+i);
+      }
+     }
+     
+     }
       void update(){
         this->pollEvents();
-        //update mouse positions
-        //relative to screen
-        //std::cout<<"Mouse position : "<<sf::Mouse::getPosition().x<<" "<<sf::Mouse::getPosition().y<<"\n";
-        //relative to window
-        std::cout<<" Mouse position : "<<
-        sf::Mouse::getPosition(*this->window).x<<" "<<
-        sf::Mouse::getPosition(*this->window).y<<"\n";
-      
+        this->updatemousepositions();
+        this->updateEnemies();
         }
-
+      
+      void renderEnemies(){
+        //rendering all the enemies
+       for(auto &e : this->enemies)
+       {
+      this->window->draw(e);
+     }
+     
+      }
       void render(){
         this ->window->clear();
         //draw objects
         
-        this->window->draw(this->enemy);
+        //this->window->draw(this->enemy);
+        
+        this->renderEnemies();
         this->window->display();
-
       }
-
+      void  updatemousepositions(){
+        /* updates the mouse position */
+        this->mousepositions=sf::Mouse::getPosition(*this->window);
+        this->mouseposview = this->window->mapPixelToCoords(this->mousepositions);
+      }
+       void spawnEnemy(){
+        /*spawns enemy by setting their color and position*/
+       /*adds enemy to the vector*/
+       this->enemy.setPosition(
+       static_cast<float>(rand() % static_cast<int>(this->window->getSize().x - this->enemy.getSize().x)),
+        //static_cast<float>(rand() % static_cast<int>(this->window->getSize().y - this->enemy.getSize().y))
+       0.f
+       );
+       this->enemy.setFillColor(sf::Color::Green);
+      this->enemies.push_back(this->enemy);
+       }
       void run(){
         while(this->window->isOpen()){
 
-
-        this->updateDt();
+ 
+      
         this->update();
         this->render();
         }
