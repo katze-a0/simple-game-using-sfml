@@ -2,7 +2,7 @@
   "C_Cpp.default.includePath": [
     "${workspaceFolder}/**"
   ],
-  "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+  "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
   "files.associations": {
     "iostream": "cpp"
   },
@@ -62,5 +62,11 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+ "cmake.preferredGenerators": [
+    "Visual Studio Code 1.90.1 (user setup)",
+    "Electron 29.4.0",
+    "Chromium 122.0.6261.156"
+]
+
 }

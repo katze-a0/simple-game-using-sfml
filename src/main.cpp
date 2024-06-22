@@ -49,7 +49,6 @@ int main(){
 
 #include<iostream>
 #include "Game.h"
-//using pre compiled header files(PCH)
 
 
 using namespace std;

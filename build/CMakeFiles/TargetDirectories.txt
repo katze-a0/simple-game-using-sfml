@@ -1,0 +1,3 @@
+C:/sfml-project/build/CMakeFiles/YourExecutableName.dir
+C:/sfml-project/build/CMakeFiles/edit_cache.dir
+C:/sfml-project/build/CMakeFiles/rebuild_cache.dir
