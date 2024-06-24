@@ -1,20 +1,20 @@
 [
 {
-  "directory": "C:/sfml-project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\main.cpp.obj -c C:\\sfml-project\\src\\main.cpp",
-  "file": "C:/sfml-project/src/main.cpp",
+  "directory": "C:/sfml-project-copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\main.cpp.obj -c C:\\sfml-project-copy\\src\\main.cpp",
+  "file": "C:/sfml-project-copy/src/main.cpp",
   "output": "CMakeFiles/YourExecutableName.dir/src/main.cpp.obj"
 },
 {
-  "directory": "C:/sfml-project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\Game.cpp.obj -c C:\\sfml-project\\src\\Game.cpp",
-  "file": "C:/sfml-project/src/Game.cpp",
+  "directory": "C:/sfml-project-copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\Game.cpp.obj -c C:\\sfml-project-copy\\src\\Game.cpp",
+  "file": "C:/sfml-project-copy/src/Game.cpp",
   "output": "CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj"
 },
 {
-  "directory": "C:/sfml-project/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\state.cpp.obj -c C:\\sfml-project\\src\\state.cpp",
-  "file": "C:/sfml-project/src/state.cpp",
+  "directory": "C:/sfml-project-copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\state.cpp.obj -c C:\\sfml-project-copy\\src\\state.cpp",
+  "file": "C:/sfml-project-copy/src/state.cpp",
   "output": "CMakeFiles/YourExecutableName.dir/src/state.cpp.obj"
 }
 ]

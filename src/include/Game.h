@@ -2,7 +2,8 @@
 
  #include<iostream>
  #include<vector>
-#include<ctime>
+ #include<ctime>
+ #include <cmath> // for sin() function
 
 #include<SFML/Graphics.hpp>
 #include<SFML/System.hpp>
@@ -34,8 +35,8 @@
 
     void initvariables();
     void initwindow(){
-       this ->videomode.height =600;
-    this->videomode.width =800;
+       this ->videomode.height =1080;
+    this->videomode.width =1920;
     //this->get
      
     this ->window =new sf::RenderWindow(this ->videomode, "SFML works!",sf::Style::Titlebar | sf::Style::Close);
@@ -77,7 +78,7 @@
                  this->window->close();
                  break;
                 case sf::Event::KeyPressed:
-                 if(this->event.key.code==sf::Keyboard::Space)  //to check if space  key is ---can put any key 
+                 if(this->event.key.code==sf::Keyboard::Enter)  //to check if space  key is ---can put any key 
                   this->window->close();
                   break;
  

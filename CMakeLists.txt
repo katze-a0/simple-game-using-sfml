@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(sfml_test)
+project(sfml-project-copy)
 set(CMAKE_CXX_STANDARD 17)
 
 # Set SFML directory paths
@@ -19,10 +19,24 @@ add_executable(YourExecutableName src/main.cpp ${SRC_FILES})
 
 add_custom_command(TARGET YourExecutableName POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/src/bin" $<TARGET_FILE_DIR:YourExecutableName>)
 
+
+# Copy audio_effect.wav to build directory on build
+# configure_file(src/audio_effect.wav ${CMAKE_CURRENT_BINARY_DIR}/audio_effect.wav COPYONLY)
+
+# Install audio file (optional)
+# install(FILES src/audio_effect.wav
+#         DESTINATION bin)
+
+add_custom_command(TARGET YourExecutableName POST_BUILD
+COMMAND ${CMAKE_COMMAND} -E copy_directory
+${CMAKE_CURRENT_SOURCE_DIR}/src/assets
+${CMAKE_CURRENT_BINARY_DIR}/assets)
+        
 # Link SFML libraries
 target_link_directories(YourExecutableName PRIVATE ${SFML_LIBRARY_DIR})
 target_link_libraries(YourExecutableName 
     sfml-graphics
     sfml-window
     sfml-system
+    sfml-audio
 )
