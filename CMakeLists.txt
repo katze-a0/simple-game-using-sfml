@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(sfml-project-copy)
+project(sfml-project-copy1)
 set(CMAKE_CXX_STANDARD 17)
 
 # Set SFML directory paths

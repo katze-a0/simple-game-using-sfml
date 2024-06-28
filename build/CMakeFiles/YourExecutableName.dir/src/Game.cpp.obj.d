@@ -1,6 +1,6 @@
 CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: \
- C:\sfml-project-copy\src\Game.cpp \
- C:/sfml-project-copy/src/include/Game.h \
+ C:\sfml-project-copy1\src\Game.cpp \
+ C:/sfml-project-copy1/src/include/Game.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -157,23 +157,23 @@ CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
- C:/sfml-project-copy/src/include/SFML/Graphics.hpp \
- C:/sfml-project-copy/src/include/SFML/Window.hpp \
- C:/sfml-project-copy/src/include/SFML/System.hpp \
- C:/sfml-project-copy/src/include/SFML/Config.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Clock.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Export.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Time.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Err.hpp \
- C:/sfml-project-copy/src/include/SFML/System/FileInputStream.hpp \
- C:/sfml-project-copy/src/include/SFML/System/InputStream.hpp \
- C:/sfml-project-copy/src/include/SFML/System/NonCopyable.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Lock.hpp \
- C:/sfml-project-copy/src/include/SFML/System/MemoryInputStream.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Mutex.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Sleep.hpp \
- C:/sfml-project-copy/src/include/SFML/System/String.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Utf.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Config.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Clock.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Export.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Time.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Err.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/FileInputStream.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/InputStream.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/NonCopyable.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Lock.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/MemoryInputStream.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Mutex.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Sleep.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/String.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Utf.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h \
@@ -189,58 +189,58 @@ CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets_nonio.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_conv.h \
- C:/sfml-project-copy/src/include/SFML/System/Utf.inl \
+ C:/sfml-project-copy1/src/include/SFML/System/Utf.inl \
  C:/msys64/ucrt64/include/c++/13.2.0/iterator \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
- C:/sfml-project-copy/src/include/SFML/System/String.inl \
- C:/sfml-project-copy/src/include/SFML/System/Thread.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Thread.inl \
- C:/sfml-project-copy/src/include/SFML/System/ThreadLocal.hpp \
- C:/sfml-project-copy/src/include/SFML/System/ThreadLocalPtr.hpp \
- C:/sfml-project-copy/src/include/SFML/System/ThreadLocalPtr.inl \
- C:/sfml-project-copy/src/include/SFML/System/Vector2.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Vector2.inl \
- C:/sfml-project-copy/src/include/SFML/System/Vector3.hpp \
- C:/sfml-project-copy/src/include/SFML/System/Vector3.inl \
- C:/sfml-project-copy/src/include/SFML/Window/Clipboard.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Export.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Context.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/GlResource.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/ContextSettings.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Cursor.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Event.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Joystick.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Keyboard.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Mouse.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Sensor.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Touch.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/VideoMode.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Window.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/WindowBase.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/Vulkan.hpp \
- C:/sfml-project-copy/src/include/SFML/Window/WindowHandle.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/String.inl \
+ C:/sfml-project-copy1/src/include/SFML/System/Thread.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Thread.inl \
+ C:/sfml-project-copy1/src/include/SFML/System/ThreadLocal.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/ThreadLocalPtr.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/ThreadLocalPtr.inl \
+ C:/sfml-project-copy1/src/include/SFML/System/Vector2.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Vector2.inl \
+ C:/sfml-project-copy1/src/include/SFML/System/Vector3.hpp \
+ C:/sfml-project-copy1/src/include/SFML/System/Vector3.inl \
+ C:/sfml-project-copy1/src/include/SFML/Window/Clipboard.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Export.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Context.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/GlResource.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/ContextSettings.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Cursor.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Event.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Joystick.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Keyboard.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Mouse.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Sensor.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Touch.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/VideoMode.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Window.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/WindowBase.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/Vulkan.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/WindowHandle.hpp \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/msys64/ucrt64/include/stdint.h \
- C:/sfml-project-copy/src/include/SFML/Window/WindowStyle.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/BlendMode.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Export.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/CircleShape.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Shape.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Drawable.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/RenderStates.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Transform.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Rect.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Rect.inl \
- C:/sfml-project-copy/src/include/SFML/Graphics/Transformable.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/VertexArray.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Vertex.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Color.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/PrimitiveType.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/ConvexShape.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Font.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Glyph.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Texture.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Image.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Window/WindowStyle.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/BlendMode.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Export.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/CircleShape.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Shape.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Drawable.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/RenderStates.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Transform.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Rect.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Rect.inl \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Transformable.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/VertexArray.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Vertex.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Color.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/ConvexShape.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Font.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Glyph.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Texture.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Image.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/map \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
@@ -248,47 +248,47 @@ CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_map.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multimap.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
- C:/sfml-project-copy/src/include/SFML/Graphics/RectangleShape.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/RenderTarget.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/View.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/RenderTexture.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/RenderWindow.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Shader.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Glsl.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Glsl.inl \
- C:/sfml-project-copy/src/include/SFML/Graphics/Sprite.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/Text.hpp \
- C:/sfml-project-copy/src/include/SFML/Graphics/VertexBuffer.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/InputSoundFile.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/Export.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/Listener.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/Music.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundStream.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundSource.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/AlResource.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/OutputSoundFile.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/Sound.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundBuffer.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/RectangleShape.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/RenderTarget.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/View.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/RenderTexture.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/RenderWindow.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Shader.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Glsl.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Glsl.inl \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Sprite.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/Text.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/InputSoundFile.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/Export.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/Listener.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/Music.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundStream.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundSource.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/AlResource.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/OutputSoundFile.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/Sound.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundBuffer.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/set \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundBufferRecorder.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundRecorder.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundFileFactory.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundFileFactory.inl \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundFileReader.hpp \
- C:/sfml-project-copy/src/include/SFML/Audio/SoundFileWriter.hpp \
- C:/sfml-project-copy/src/include/SFML/Network.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/Ftp.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/Export.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/TcpSocket.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/Socket.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/SocketHandle.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundBufferRecorder.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundRecorder.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundFileFactory.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundFileFactory.inl \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundFileReader.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Audio/SoundFileWriter.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/Ftp.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/Export.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/TcpSocket.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/Socket.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/SocketHandle.hpp \
  C:/msys64/ucrt64/include/basetsd.h \
- C:/sfml-project-copy/src/include/SFML/Network/Http.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/IpAddress.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/Packet.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/SocketSelector.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/TcpListener.hpp \
- C:/sfml-project-copy/src/include/SFML/Network/UdpSocket.hpp
+ C:/sfml-project-copy1/src/include/SFML/Network/Http.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/IpAddress.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/Packet.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/SocketSelector.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/TcpListener.hpp \
+ C:/sfml-project-copy1/src/include/SFML/Network/UdpSocket.hpp

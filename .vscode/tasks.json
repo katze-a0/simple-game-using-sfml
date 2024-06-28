@@ -8,8 +8,8 @@
         {
             "label": "run2",
             "type": "shell",
-        
-            "command": "'C:/Program Files/CMake/bin/cmake.EXE' --build c:/sfml-project-copy/build --config Debug --target all -j 10 -- && c:/sfml-project-copy/build/YourExecutableName.exe"
+            "problemMatcher":"$msvc",
+            "command": "./run.sh"
         }
     ]
 }

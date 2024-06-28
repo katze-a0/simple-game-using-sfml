@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/sfml-project-copy/build"
+			"value" : "c:/sfml-project-copy1/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/sfml-project-copy/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/sfml-project-copy1/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/sfml-project-copy"
+			"value" : "C:/sfml-project-copy1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/sfml-project-copy"
+			"value" : "C:/Program Files (x86)/sfml-project-copy1"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "sfml-project-copy"
+			"value" : "sfml-project-copy1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1298,7 +1298,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "sfml-project-copy_BINARY_DIR",
+			"name" : "sfml-project-copy1_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1307,10 +1307,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/sfml-project-copy/build"
+			"value" : "C:/sfml-project-copy1/build"
 		},
 		{
-			"name" : "sfml-project-copy_IS_TOP_LEVEL",
+			"name" : "sfml-project-copy1_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1322,7 +1322,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "sfml-project-copy_SOURCE_DIR",
+			"name" : "sfml-project-copy1_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/sfml-project-copy"
+			"value" : "C:/sfml-project-copy1"
 		}
 	],
 	"kind" : "cache",

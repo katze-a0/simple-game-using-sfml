@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\sfml-project-copy
+CMAKE_SOURCE_DIR = C:\sfml-project-copy1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\sfml-project-copy\build
+CMAKE_BINARY_DIR = C:\sfml-project-copy1\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/YourExecutableName.dir/depend.make
@@ -70,48 +70,48 @@ include CMakeFiles/YourExecutableName.dir/flags.make
 
 CMakeFiles/YourExecutableName.dir/src/main.cpp.obj: CMakeFiles/YourExecutableName.dir/flags.make
 CMakeFiles/YourExecutableName.dir/src/main.cpp.obj: CMakeFiles/YourExecutableName.dir/includes_CXX.rsp
-CMakeFiles/YourExecutableName.dir/src/main.cpp.obj: C:/sfml-project-copy/src/main.cpp
+CMakeFiles/YourExecutableName.dir/src/main.cpp.obj: C:/sfml-project-copy1/src/main.cpp
 CMakeFiles/YourExecutableName.dir/src/main.cpp.obj: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml-project-copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YourExecutableName.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/main.cpp.obj -MF CMakeFiles\YourExecutableName.dir\src\main.cpp.obj.d -o CMakeFiles\YourExecutableName.dir\src\main.cpp.obj -c C:\sfml-project-copy\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml-project-copy1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YourExecutableName.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/main.cpp.obj -MF CMakeFiles\YourExecutableName.dir\src\main.cpp.obj.d -o CMakeFiles\YourExecutableName.dir\src\main.cpp.obj -c C:\sfml-project-copy1\src\main.cpp
 
 CMakeFiles/YourExecutableName.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml-project-copy\src\main.cpp > CMakeFiles\YourExecutableName.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml-project-copy1\src\main.cpp > CMakeFiles\YourExecutableName.dir\src\main.cpp.i
 
 CMakeFiles/YourExecutableName.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml-project-copy\src\main.cpp -o CMakeFiles\YourExecutableName.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml-project-copy1\src\main.cpp -o CMakeFiles\YourExecutableName.dir\src\main.cpp.s
 
 CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: CMakeFiles/YourExecutableName.dir/flags.make
 CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: CMakeFiles/YourExecutableName.dir/includes_CXX.rsp
-CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: C:/sfml-project-copy/src/Game.cpp
+CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: C:/sfml-project-copy1/src/Game.cpp
 CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml-project-copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj -MF CMakeFiles\YourExecutableName.dir\src\Game.cpp.obj.d -o CMakeFiles\YourExecutableName.dir\src\Game.cpp.obj -c C:\sfml-project-copy\src\Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml-project-copy1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj -MF CMakeFiles\YourExecutableName.dir\src\Game.cpp.obj.d -o CMakeFiles\YourExecutableName.dir\src\Game.cpp.obj -c C:\sfml-project-copy1\src\Game.cpp
 
 CMakeFiles/YourExecutableName.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/Game.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml-project-copy\src\Game.cpp > CMakeFiles\YourExecutableName.dir\src\Game.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml-project-copy1\src\Game.cpp > CMakeFiles\YourExecutableName.dir\src\Game.cpp.i
 
 CMakeFiles/YourExecutableName.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/Game.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml-project-copy\src\Game.cpp -o CMakeFiles\YourExecutableName.dir\src\Game.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml-project-copy1\src\Game.cpp -o CMakeFiles\YourExecutableName.dir\src\Game.cpp.s
 
 CMakeFiles/YourExecutableName.dir/src/state.cpp.obj: CMakeFiles/YourExecutableName.dir/flags.make
 CMakeFiles/YourExecutableName.dir/src/state.cpp.obj: CMakeFiles/YourExecutableName.dir/includes_CXX.rsp
-CMakeFiles/YourExecutableName.dir/src/state.cpp.obj: C:/sfml-project-copy/src/state.cpp
+CMakeFiles/YourExecutableName.dir/src/state.cpp.obj: C:/sfml-project-copy1/src/state.cpp
 CMakeFiles/YourExecutableName.dir/src/state.cpp.obj: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml-project-copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YourExecutableName.dir/src/state.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/state.cpp.obj -MF CMakeFiles\YourExecutableName.dir\src\state.cpp.obj.d -o CMakeFiles\YourExecutableName.dir\src\state.cpp.obj -c C:\sfml-project-copy\src\state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml-project-copy1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YourExecutableName.dir/src/state.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/state.cpp.obj -MF CMakeFiles\YourExecutableName.dir\src\state.cpp.obj.d -o CMakeFiles\YourExecutableName.dir\src\state.cpp.obj -c C:\sfml-project-copy1\src\state.cpp
 
 CMakeFiles/YourExecutableName.dir/src/state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/state.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml-project-copy\src\state.cpp > CMakeFiles\YourExecutableName.dir\src\state.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml-project-copy1\src\state.cpp > CMakeFiles\YourExecutableName.dir\src\state.cpp.i
 
 CMakeFiles/YourExecutableName.dir/src/state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/state.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml-project-copy\src\state.cpp -o CMakeFiles\YourExecutableName.dir\src\state.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml-project-copy1\src\state.cpp -o CMakeFiles\YourExecutableName.dir\src\state.cpp.s
 
 # Object files for target YourExecutableName
 YourExecutableName_OBJECTS = \
@@ -129,10 +129,10 @@ YourExecutableName.exe: CMakeFiles/YourExecutableName.dir/build.make
 YourExecutableName.exe: CMakeFiles/YourExecutableName.dir/linkLibs.rsp
 YourExecutableName.exe: CMakeFiles/YourExecutableName.dir/objects1.rsp
 YourExecutableName.exe: CMakeFiles/YourExecutableName.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\sfml-project-copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable YourExecutableName.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\sfml-project-copy1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable YourExecutableName.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\YourExecutableName.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/sfml-project-copy/src/bin C:/sfml-project-copy/build
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/sfml-project-copy/src/assets C:/sfml-project-copy/build/assets
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/sfml-project-copy1/src/bin C:/sfml-project-copy1/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/sfml-project-copy1/src/assets C:/sfml-project-copy1/build/assets
 
 # Rule to build all files generated by this target.
 CMakeFiles/YourExecutableName.dir/build: YourExecutableName.exe
@@ -143,6 +143,6 @@ CMakeFiles/YourExecutableName.dir/clean:
 .PHONY : CMakeFiles/YourExecutableName.dir/clean
 
 CMakeFiles/YourExecutableName.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\sfml-project-copy C:\sfml-project-copy C:\sfml-project-copy\build C:\sfml-project-copy\build C:\sfml-project-copy\build\CMakeFiles\YourExecutableName.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\sfml-project-copy1 C:\sfml-project-copy1 C:\sfml-project-copy1\build C:\sfml-project-copy1\build C:\sfml-project-copy1\build\CMakeFiles\YourExecutableName.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/YourExecutableName.dir/depend
 
