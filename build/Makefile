@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\sfml-project-copy
+CMAKE_SOURCE_DIR = C:\sfml_project_copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\sfml-project-copy\build
+CMAKE_BINARY_DIR = C:\sfml_project_copy\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\sfml-project-copy\build\CMakeFiles C:\sfml-project-copy\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\sfml_project_copy\build\CMakeFiles C:\sfml_project_copy\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\sfml-project-copy\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\sfml_project_copy\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,48 +116,96 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named YourExecutableName
+# Target rules for targets named main
 
 # Build rule for target.
-YourExecutableName: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 YourExecutableName
-.PHONY : YourExecutableName
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-YourExecutableName/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/build
-.PHONY : YourExecutableName/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-src/Game.obj: src/Game.cpp.obj
-.PHONY : src/Game.obj
+src/AnimatedGIF.obj: src/AnimatedGIF.cpp.obj
+.PHONY : src/AnimatedGIF.obj
 
 # target to build an object file
-src/Game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj
-.PHONY : src/Game.cpp.obj
+src/AnimatedGIF.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj
+.PHONY : src/AnimatedGIF.cpp.obj
 
-src/Game.i: src/Game.cpp.i
-.PHONY : src/Game.i
+src/AnimatedGIF.i: src/AnimatedGIF.cpp.i
+.PHONY : src/AnimatedGIF.i
 
 # target to preprocess a source file
-src/Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/Game.cpp.i
-.PHONY : src/Game.cpp.i
+src/AnimatedGIF.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AnimatedGIF.cpp.i
+.PHONY : src/AnimatedGIF.cpp.i
 
-src/Game.s: src/Game.cpp.s
-.PHONY : src/Game.s
+src/AnimatedGIF.s: src/AnimatedGIF.cpp.s
+.PHONY : src/AnimatedGIF.s
 
 # target to generate assembly for a file
-src/Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/Game.cpp.s
-.PHONY : src/Game.cpp.s
+src/AnimatedGIF.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AnimatedGIF.cpp.s
+.PHONY : src/AnimatedGIF.cpp.s
+
+src/AudioEffect.obj: src/AudioEffect.cpp.obj
+.PHONY : src/AudioEffect.obj
+
+# target to build an object file
+src/AudioEffect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AudioEffect.cpp.obj
+.PHONY : src/AudioEffect.cpp.obj
+
+src/AudioEffect.i: src/AudioEffect.cpp.i
+.PHONY : src/AudioEffect.i
+
+# target to preprocess a source file
+src/AudioEffect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AudioEffect.cpp.i
+.PHONY : src/AudioEffect.cpp.i
+
+src/AudioEffect.s: src/AudioEffect.cpp.s
+.PHONY : src/AudioEffect.s
+
+# target to generate assembly for a file
+src/AudioEffect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AudioEffect.cpp.s
+.PHONY : src/AudioEffect.cpp.s
+
+src/ImageLoader.obj: src/ImageLoader.cpp.obj
+.PHONY : src/ImageLoader.obj
+
+# target to build an object file
+src/ImageLoader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ImageLoader.cpp.obj
+.PHONY : src/ImageLoader.cpp.obj
+
+src/ImageLoader.i: src/ImageLoader.cpp.i
+.PHONY : src/ImageLoader.i
+
+# target to preprocess a source file
+src/ImageLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ImageLoader.cpp.i
+.PHONY : src/ImageLoader.cpp.i
+
+src/ImageLoader.s: src/ImageLoader.cpp.s
+.PHONY : src/ImageLoader.s
+
+# target to generate assembly for a file
+src/ImageLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ImageLoader.cpp.s
+.PHONY : src/ImageLoader.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -165,7 +213,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -173,32 +221,8 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/state.obj: src/state.cpp.obj
-.PHONY : src/state.obj
-
-# target to build an object file
-src/state.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/state.cpp.obj
-.PHONY : src/state.cpp.obj
-
-src/state.i: src/state.cpp.i
-.PHONY : src/state.i
-
-# target to preprocess a source file
-src/state.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/state.cpp.i
-.PHONY : src/state.cpp.i
-
-src/state.s: src/state.cpp.s
-.PHONY : src/state.s
-
-# target to generate assembly for a file
-src/state.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\YourExecutableName.dir\build.make CMakeFiles/YourExecutableName.dir/src/state.cpp.s
-.PHONY : src/state.cpp.s
 
 # Help Target
 help:
@@ -208,16 +232,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... YourExecutableName
-	@echo ... src/Game.obj
-	@echo ... src/Game.i
-	@echo ... src/Game.s
+	@echo ... main
+	@echo ... src/AnimatedGIF.obj
+	@echo ... src/AnimatedGIF.i
+	@echo ... src/AnimatedGIF.s
+	@echo ... src/AudioEffect.obj
+	@echo ... src/AudioEffect.i
+	@echo ... src/AudioEffect.s
+	@echo ... src/ImageLoader.obj
+	@echo ... src/ImageLoader.i
+	@echo ... src/ImageLoader.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/state.obj
-	@echo ... src/state.i
-	@echo ... src/state.s
 .PHONY : help
 
 

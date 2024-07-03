@@ -1,20 +1,26 @@
 [
 {
-  "directory": "C:/sfml-project-copy/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\main.cpp.obj -c C:\\sfml-project-copy\\src\\main.cpp",
-  "file": "C:/sfml-project-copy/src/main.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/main.cpp.obj"
+  "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\sfml_project_copy\\src\\main.cpp",
+  "file": "C:/sfml_project_copy/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
 },
 {
-  "directory": "C:/sfml-project-copy/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\Game.cpp.obj -c C:\\sfml-project-copy\\src\\Game.cpp",
-  "file": "C:/sfml-project-copy/src/Game.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/Game.cpp.obj"
+  "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\AnimatedGIF.cpp.obj -c C:\\sfml_project_copy\\src\\AnimatedGIF.cpp",
+  "file": "C:/sfml_project_copy/src/AnimatedGIF.cpp",
+  "output": "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj"
 },
 {
-  "directory": "C:/sfml-project-copy/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/YourExecutableName.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\YourExecutableName.dir\\src\\state.cpp.obj -c C:\\sfml-project-copy\\src\\state.cpp",
-  "file": "C:/sfml-project-copy/src/state.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/state.cpp.obj"
+  "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\AudioEffect.cpp.obj -c C:\\sfml_project_copy\\src\\AudioEffect.cpp",
+  "file": "C:/sfml_project_copy/src/AudioEffect.cpp",
+  "output": "CMakeFiles/main.dir/src/AudioEffect.cpp.obj"
+},
+{
+  "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\ImageLoader.cpp.obj -c C:\\sfml_project_copy\\src\\ImageLoader.cpp",
+  "file": "C:/sfml_project_copy/src/ImageLoader.cpp",
+  "output": "CMakeFiles/main.dir/src/ImageLoader.cpp.obj"
 }
 ]

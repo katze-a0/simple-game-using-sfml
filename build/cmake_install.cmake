@@ -1,8 +1,8 @@
-# Install script for directory: C:/sfml-project-copy
+# Install script for directory: C:/sfml_project_copy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sfml-project-copy")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sfml_project_copy")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/sfml-project-copy/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/sfml_project_copy/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
