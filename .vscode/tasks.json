@@ -8,6 +8,7 @@
         {
             "label": "run2",
             "type": "shell",
+
             "problemMatcher": "$msvc",
             "command": "./run.sh"
         },
@@ -21,6 +22,8 @@
             "group": "build",
             "problemMatcher": [],
             "detail": "CMake template build task"
+
+
         }
     ]
 }

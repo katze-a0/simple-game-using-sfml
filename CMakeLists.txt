@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
+
 project(sfml_project_copy)
 set(CMAKE_CXX_STANDARD 17)
 
