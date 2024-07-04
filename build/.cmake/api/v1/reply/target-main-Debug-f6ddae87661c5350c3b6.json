@@ -83,7 +83,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -148,7 +150,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -175,7 +179,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/Buttonpress.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/ImageLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Menu_to_Classic.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

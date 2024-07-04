@@ -6,6 +6,7 @@
 #include "AnimatedGIF.h"
 #include "AudioEffect.h"
 #include "ImageLoader.h"
+#include "Buttonpress.h"
 
 int main(int argc, char** argv) 
 {
@@ -26,6 +27,8 @@ int main(int argc, char** argv)
 
     sf::Clock clock;
     bool gifFinished = false; // Add a boolean flag to track GIF playback
+    
+    ButtonPress buttonpress;
 
     while (window.isOpen())
     {
@@ -41,13 +44,15 @@ int main(int argc, char** argv)
             window.draw(sprite);
 
             sf::Time elapsed = clock.getElapsedTime(); // Get the elapsed time
-            if (elapsed.asSeconds() > 6.0f) { // Check if GIF has finished playing (assuming 10 seconds)
+            if (elapsed.asSeconds() > 6.0f) { // Check if GIF has finished playing 
                 gifFinished = true; // Set the flag to true
             }
         } else {
             window.clear(sf::Color::Black);
             imageLoader.draw(window);
         }
+        buttonpress.handleEvent(event,window);
+        buttonpress.printPosition();
 
         window.display();
 

@@ -19,8 +19,20 @@
 },
 {
   "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Buttonpress.cpp.obj -c C:\\sfml_project_copy\\src\\Buttonpress.cpp",
+  "file": "C:/sfml_project_copy/src/Buttonpress.cpp",
+  "output": "CMakeFiles/main.dir/src/Buttonpress.cpp.obj"
+},
+{
+  "directory": "C:/sfml_project_copy/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\ImageLoader.cpp.obj -c C:\\sfml_project_copy\\src\\ImageLoader.cpp",
   "file": "C:/sfml_project_copy/src/ImageLoader.cpp",
   "output": "CMakeFiles/main.dir/src/ImageLoader.cpp.obj"
+},
+{
+  "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Menu_to_Classic.cpp.obj -c C:\\sfml_project_copy\\src\\Menu_to_Classic.cpp",
+  "file": "C:/sfml_project_copy/src/Menu_to_Classic.cpp",
+  "output": "CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj"
 }
 ]

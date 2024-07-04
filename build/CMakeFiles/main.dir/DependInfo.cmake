@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/sfml_project_copy/src/AnimatedGIF.cpp" "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj" "gcc" "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj.d"
   "C:/sfml_project_copy/src/AudioEffect.cpp" "CMakeFiles/main.dir/src/AudioEffect.cpp.obj" "gcc" "CMakeFiles/main.dir/src/AudioEffect.cpp.obj.d"
+  "C:/sfml_project_copy/src/Buttonpress.cpp" "CMakeFiles/main.dir/src/Buttonpress.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Buttonpress.cpp.obj.d"
   "C:/sfml_project_copy/src/ImageLoader.cpp" "CMakeFiles/main.dir/src/ImageLoader.cpp.obj" "gcc" "CMakeFiles/main.dir/src/ImageLoader.cpp.obj.d"
+  "C:/sfml_project_copy/src/Menu_to_Classic.cpp" "CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj.d"
   "C:/sfml_project_copy/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 

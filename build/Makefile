@@ -176,6 +176,30 @@ src/AudioEffect.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AudioEffect.cpp.s
 .PHONY : src/AudioEffect.cpp.s
 
+src/Buttonpress.obj: src/Buttonpress.cpp.obj
+.PHONY : src/Buttonpress.obj
+
+# target to build an object file
+src/Buttonpress.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Buttonpress.cpp.obj
+.PHONY : src/Buttonpress.cpp.obj
+
+src/Buttonpress.i: src/Buttonpress.cpp.i
+.PHONY : src/Buttonpress.i
+
+# target to preprocess a source file
+src/Buttonpress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Buttonpress.cpp.i
+.PHONY : src/Buttonpress.cpp.i
+
+src/Buttonpress.s: src/Buttonpress.cpp.s
+.PHONY : src/Buttonpress.s
+
+# target to generate assembly for a file
+src/Buttonpress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Buttonpress.cpp.s
+.PHONY : src/Buttonpress.cpp.s
+
 src/ImageLoader.obj: src/ImageLoader.cpp.obj
 .PHONY : src/ImageLoader.obj
 
@@ -199,6 +223,30 @@ src/ImageLoader.s: src/ImageLoader.cpp.s
 src/ImageLoader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ImageLoader.cpp.s
 .PHONY : src/ImageLoader.cpp.s
+
+src/Menu_to_Classic.obj: src/Menu_to_Classic.cpp.obj
+.PHONY : src/Menu_to_Classic.obj
+
+# target to build an object file
+src/Menu_to_Classic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj
+.PHONY : src/Menu_to_Classic.cpp.obj
+
+src/Menu_to_Classic.i: src/Menu_to_Classic.cpp.i
+.PHONY : src/Menu_to_Classic.i
+
+# target to preprocess a source file
+src/Menu_to_Classic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Menu_to_Classic.cpp.i
+.PHONY : src/Menu_to_Classic.cpp.i
+
+src/Menu_to_Classic.s: src/Menu_to_Classic.cpp.s
+.PHONY : src/Menu_to_Classic.s
+
+# target to generate assembly for a file
+src/Menu_to_Classic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Menu_to_Classic.cpp.s
+.PHONY : src/Menu_to_Classic.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -239,9 +287,15 @@ help:
 	@echo ... src/AudioEffect.obj
 	@echo ... src/AudioEffect.i
 	@echo ... src/AudioEffect.s
+	@echo ... src/Buttonpress.obj
+	@echo ... src/Buttonpress.i
+	@echo ... src/Buttonpress.s
 	@echo ... src/ImageLoader.obj
 	@echo ... src/ImageLoader.i
 	@echo ... src/ImageLoader.s
+	@echo ... src/Menu_to_Classic.obj
+	@echo ... src/Menu_to_Classic.i
+	@echo ... src/Menu_to_Classic.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

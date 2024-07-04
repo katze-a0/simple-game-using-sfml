@@ -1,4 +1,3 @@
-build/CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj.d
 CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj: \
  C:\sfml_project_copy\src\AnimatedGIF.cpp \
  C:/sfml_project_copy/src/include/AnimatedGIF.h \
@@ -11,7 +10,6 @@ CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj: \
  C:/sfml_project_copy/src/include/SFML/System/Time.hpp \
  C:/sfml_project_copy/src/include/SFML/System/Err.hpp \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
-
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
