@@ -10,7 +10,7 @@ void ButtonPress::handleEvent(const sf::Event& event, sf::RenderWindow& window) 
     }
 }
 
-sf::Vector2i ButtonPress::getMousePosition() const {
+sf::Vector2i ButtonPress::getMousePosition()  {
     return mousePosition;
 }
 

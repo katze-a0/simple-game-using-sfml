@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: \
  C:\sfml_project_copy\src\Menu_to_Classic.cpp \
- C:/sfml_project_copy/src/include/Menu_to_Classic.h \
- C:/sfml_project_copy/src/include/ButtonPress.h \
+ C:/sfml_project_copy/src/include/Menu_to_classic.h \
+ C:/sfml_project_copy/src/include/ImageLoader.h \
  C:/sfml_project_copy/src/include/SFML/Graphics.hpp \
  C:/sfml_project_copy/src/include/SFML/Window.hpp \
  C:/sfml_project_copy/src/include/SFML/System.hpp \
@@ -241,4 +241,26 @@ CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: \
  C:/sfml_project_copy/src/include/SFML/Graphics/Sprite.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/Text.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/VertexBuffer.hpp \
- C:/sfml_project_copy/src/include/ImageLoader.h
+ C:/sfml_project_copy/src/include/ButtonPress.h \
+ C:/sfml_project_copy/src/include/AudioEffect.h \
+ C:/sfml_project_copy/src/include/SFML/Audio.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/InputSoundFile.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/Export.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/Listener.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/Music.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundStream.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundSource.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/AlResource.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/OutputSoundFile.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/Sound.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundBuffer.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/set \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundBufferRecorder.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundRecorder.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundFileFactory.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundFileFactory.inl \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundFileReader.hpp \
+ C:/sfml_project_copy/src/include/SFML/Audio/SoundFileWriter.hpp \
+ C:/sfml_project_copy/src/include/Buttonpress.h

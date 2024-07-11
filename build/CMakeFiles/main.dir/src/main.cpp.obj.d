@@ -264,4 +264,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:\sfml_project_copy\src\main.cpp \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileReader.hpp \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileWriter.hpp \
  C:/sfml_project_copy/src/include/ImageLoader.h \
- C:/sfml_project_copy/src/include/Buttonpress.h
+ C:/sfml_project_copy/src/include/Buttonpress.h \
+ C:/sfml_project_copy/src/include/Menu_to_Classic.h \
+ C:/sfml_project_copy/src/include/ImageLoader.h \
+ C:/sfml_project_copy/src/include/ButtonPress.h

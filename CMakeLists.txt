@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
 
-
 project(sfml_project_copy)
 set(CMAKE_CXX_STANDARD 17)
 
@@ -16,7 +15,6 @@ include_directories(src/include)
 file(GLOB SRC_FILES src/*.cpp)
 list(REMOVE_ITEM SRC_FILES src/main.cpp)
 add_executable(main src/main.cpp  ${SRC_FILES})
-
 
 
 add_custom_command(TARGET main POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/src/bin" $<TARGET_FILE_DIR:main>)

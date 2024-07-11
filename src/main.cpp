@@ -7,6 +7,8 @@
 #include "AudioEffect.h"
 #include "ImageLoader.h"
 #include "Buttonpress.h"
+#include "Menu_to_Classic.h"
+
 
 int main(int argc, char** argv) 
 {
@@ -29,7 +31,7 @@ int main(int argc, char** argv)
     bool gifFinished = false; // Add a boolean flag to track GIF playback
     
     ButtonPress buttonpress;
-
+    Menu_to_classic menu_to_classic(imageLoader);
     while (window.isOpen())
     {
         sf::Event event;
@@ -50,10 +52,12 @@ int main(int argc, char** argv)
         } else {
             window.clear(sf::Color::Black);
             imageLoader.draw(window);
+           
         }
         buttonpress.handleEvent(event,window);
         buttonpress.printPosition();
-
+        menu_to_classic.checkvalue(imageLoader, buttonpress, window, window.getSize());
+        
         window.display();
 
     }
@@ -61,4 +65,21 @@ int main(int argc, char** argv)
 
     return 0;
 }
+
+    
+
+
+
+/*
+//apple
+    sf::Texture appleTex;
+    sf::Sprite apple;
+    appleTex.loadFromFile("apple.png");
+    apple.setTexture(appleTex);
+    apple.setScale(0.5f, 0.5f);
+    apple.setOrigin(73.f, 80.f);
+    std::vector<sf::Sprite> apples;
+    apples.push_back(sf::Sprite(apple));
+    int applecounter =60;
+    int a = 10;*/
 
