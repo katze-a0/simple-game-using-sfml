@@ -263,4 +263,5 @@ CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileFactory.inl \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileReader.hpp \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileWriter.hpp \
+ C:/sfml_project_copy/src/include/AudioEffect.h \
  C:/sfml_project_copy/src/include/Buttonpress.h

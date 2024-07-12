@@ -1,11 +1,19 @@
-CMakeFiles/main.dir/src/main.cpp.obj: C:\sfml_project_copy\src\main.cpp \
- C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+CMakeFiles/main.dir/src/Utility.cpp.obj: \
+ C:\sfml_project_copy\src\Utility.cpp C:\sfml_project_copy\src\Utility.h \
+ C:/sfml_project_copy/src/include/SFML/Graphics.hpp \
+ C:/sfml_project_copy/src/include/SFML/Window.hpp \
+ C:/sfml_project_copy/src/include/SFML/System.hpp \
+ C:/sfml_project_copy/src/include/SFML/Config.hpp \
+ C:/sfml_project_copy/src/include/SFML/System/Clock.hpp \
+ C:/sfml_project_copy/src/include/SFML/System/Export.hpp \
+ C:/sfml_project_copy/src/include/SFML/System/Time.hpp \
+ C:/sfml_project_copy/src/include/SFML/System/Err.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/pstl_config.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
  C:/msys64/ucrt64/include/c++/13.2.0/iosfwd \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h \
@@ -131,16 +139,6 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:\sfml_project_copy\src\main.cpp \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/istream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/sfml_project_copy/src/include/SFML/Graphics.hpp \
- C:/sfml_project_copy/src/include/SFML/Window.hpp \
- C:/sfml_project_copy/src/include/SFML/System.hpp \
- C:/sfml_project_copy/src/include/SFML/Config.hpp \
- C:/sfml_project_copy/src/include/SFML/System/Clock.hpp \
- C:/sfml_project_copy/src/include/SFML/System/Export.hpp \
- C:/sfml_project_copy/src/include/SFML/System/Time.hpp \
- C:/sfml_project_copy/src/include/SFML/System/Err.hpp \
  C:/sfml_project_copy/src/include/SFML/System/FileInputStream.hpp \
  C:/sfml_project_copy/src/include/SFML/System/InputStream.hpp \
  C:/sfml_project_copy/src/include/SFML/System/NonCopyable.hpp \
@@ -241,32 +239,11 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:\sfml_project_copy\src\main.cpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/Sprite.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/Text.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/VertexBuffer.hpp \
- C:/sfml_project_copy/src/include/AnimatedGIF.h \
- C:/sfml_project_copy/src/include/AudioEffect.h \
- C:/sfml_project_copy/src/include/SFML/Audio.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/InputSoundFile.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/Export.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/Listener.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/Music.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundStream.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundSource.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/AlResource.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/OutputSoundFile.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/Sound.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundBuffer.hpp \
- C:/msys64/ucrt64/include/c++/13.2.0/set \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundBufferRecorder.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundRecorder.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundFileFactory.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundFileFactory.inl \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundFileReader.hpp \
- C:/sfml_project_copy/src/include/SFML/Audio/SoundFileWriter.hpp \
- C:/sfml_project_copy/src/include/ImageLoader.h \
- C:/sfml_project_copy/src/include/Buttonpress.h \
- C:/sfml_project_copy/src/include/Menu_to_Classic.h \
- C:/sfml_project_copy/src/include/ImageLoader.h \
- C:/sfml_project_copy/src/include/ButtonPress.h \
- C:/sfml_project_copy/src/include/AudioEffect.h \
- C:/sfml_project_copy/src/include/Apple.h
+ C:/msys64/ucrt64/include/c++/13.2.0/fstream \
+ C:/msys64/ucrt64/include/c++/13.2.0/istream \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+ C:\sfml_project_copy\src\GameStats.h

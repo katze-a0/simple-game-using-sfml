@@ -13,6 +13,12 @@
 },
 {
   "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Apple.cpp.obj -c C:\\sfml_project_copy\\src\\Apple.cpp",
+  "file": "C:/sfml_project_copy/src/Apple.cpp",
+  "output": "CMakeFiles/main.dir/src/Apple.cpp.obj"
+},
+{
+  "directory": "C:/sfml_project_copy/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\AudioEffect.cpp.obj -c C:\\sfml_project_copy\\src\\AudioEffect.cpp",
   "file": "C:/sfml_project_copy/src/AudioEffect.cpp",
   "output": "CMakeFiles/main.dir/src/AudioEffect.cpp.obj"

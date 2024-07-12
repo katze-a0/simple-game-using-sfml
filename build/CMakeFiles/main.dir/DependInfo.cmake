@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/sfml_project_copy/src/AnimatedGIF.cpp" "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj" "gcc" "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj.d"
+  "C:/sfml_project_copy/src/Apple.cpp" "CMakeFiles/main.dir/src/Apple.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Apple.cpp.obj.d"
   "C:/sfml_project_copy/src/AudioEffect.cpp" "CMakeFiles/main.dir/src/AudioEffect.cpp.obj" "gcc" "CMakeFiles/main.dir/src/AudioEffect.cpp.obj.d"
   "C:/sfml_project_copy/src/Buttonpress.cpp" "CMakeFiles/main.dir/src/Buttonpress.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Buttonpress.cpp.obj.d"
   "C:/sfml_project_copy/src/ImageLoader.cpp" "CMakeFiles/main.dir/src/ImageLoader.cpp.obj" "gcc" "CMakeFiles/main.dir/src/ImageLoader.cpp.obj.d"

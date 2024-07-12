@@ -24,13 +24,9 @@ void Menu_to_classic::checkvalue(ImageLoader& imageLoader, ButtonPress& buttonPr
 #include "AudioEffect.h"
 #include "Buttonpress.h"
 
-Menu_to_classic::Menu_to_classic(ImageLoader& imageLoader) : imageLoader_(imageLoader) {
-    // Load classic.wav audio file
-    AudioEffect classicSound("classic.wav");
-    classicSound.play();
-
+Menu_to_classic::Menu_to_classic(ImageLoader& imageLoader) : imageLoader_(imageLoader) {  
 }
-void Menu_to_classic::checkvalue(ImageLoader& imageLoader, ButtonPress& buttonPress, sf::RenderWindow& window, sf::Vector2u windowSize) {
+bool Menu_to_classic::checkvalue(ImageLoader& imageLoader, ButtonPress& buttonPress, sf::RenderWindow& window, sf::Vector2u windowSize) {
     x_coordinate = buttonPress.getMousePosition().x;
     y_coordinate = buttonPress.getMousePosition().y;
 
@@ -41,7 +37,9 @@ void Menu_to_classic::checkvalue(ImageLoader& imageLoader, ButtonPress& buttonPr
         imageLoader_.sprite.setScale(windowSize.x / static_cast<float>(imageLoader_.texture.getSize().x), windowSize.y / static_cast<float>(imageLoader_.texture.getSize().y));
         imageLoader_.update(window);
         imageLoader_.draw(window);
-
+        
     }
+    return true;
+
 }
 

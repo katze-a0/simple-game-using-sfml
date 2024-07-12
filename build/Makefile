@@ -152,6 +152,30 @@ src/AnimatedGIF.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AnimatedGIF.cpp.s
 .PHONY : src/AnimatedGIF.cpp.s
 
+src/Apple.obj: src/Apple.cpp.obj
+.PHONY : src/Apple.obj
+
+# target to build an object file
+src/Apple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Apple.cpp.obj
+.PHONY : src/Apple.cpp.obj
+
+src/Apple.i: src/Apple.cpp.i
+.PHONY : src/Apple.i
+
+# target to preprocess a source file
+src/Apple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Apple.cpp.i
+.PHONY : src/Apple.cpp.i
+
+src/Apple.s: src/Apple.cpp.s
+.PHONY : src/Apple.s
+
+# target to generate assembly for a file
+src/Apple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Apple.cpp.s
+.PHONY : src/Apple.cpp.s
+
 src/AudioEffect.obj: src/AudioEffect.cpp.obj
 .PHONY : src/AudioEffect.obj
 
@@ -284,6 +308,9 @@ help:
 	@echo ... src/AnimatedGIF.obj
 	@echo ... src/AnimatedGIF.i
 	@echo ... src/AnimatedGIF.s
+	@echo ... src/Apple.obj
+	@echo ... src/Apple.i
+	@echo ... src/Apple.s
 	@echo ... src/AudioEffect.obj
 	@echo ... src/AudioEffect.i
 	@echo ... src/AudioEffect.s

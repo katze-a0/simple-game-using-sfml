@@ -4,6 +4,7 @@
 
 #include "ImageLoader.h"
 #include "ButtonPress.h"
+#include "AudioEffect.h"
 
 class ButtonPress;
 class ImageLoader;
@@ -11,8 +12,8 @@ class ImageLoader;
 class Menu_to_classic{
 public:
    Menu_to_classic(ImageLoader& imageLoader); // Constructor
-   void checkvalue(ImageLoader& imageLoader, ButtonPress& buttonPress,sf::RenderWindow& window,sf::Vector2u windowSize);
-
+   bool checkvalue(ImageLoader& imageLoader, ButtonPress& buttonPress,sf::RenderWindow& window,sf::Vector2u windowSize);
+   void draw(sf::RenderWindow& window){}
 private: 
     int x_coordinate;
     int y_coordinate;
@@ -21,6 +22,8 @@ private:
     ButtonPress* buttonPress_;  // Pointer to FruitManager
 
     friend class ButtonPress; // Declare ButtonPress as a friend class
+    AudioEffect* sound_;
+    
 };
 
 #endif

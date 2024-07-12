@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj"
   "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj.d"
+  "CMakeFiles/main.dir/src/Apple.cpp.obj"
+  "CMakeFiles/main.dir/src/Apple.cpp.obj.d"
   "CMakeFiles/main.dir/src/AudioEffect.cpp.obj"
   "CMakeFiles/main.dir/src/AudioEffect.cpp.obj.d"
   "CMakeFiles/main.dir/src/Buttonpress.cpp.obj"
