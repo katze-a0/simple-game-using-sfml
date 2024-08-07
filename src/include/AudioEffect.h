@@ -14,6 +14,8 @@ public:
 
 private:
     sf::Sound *sound;
+
+
     sf::SoundBuffer *soundBuffer;
 };
 

@@ -3,6 +3,10 @@
 cd build
 #"C:/sfml_project_copy/build/main.exe" loading.gif &
 #"C:/sfml_project_copy/build/main.exe" screen.gif
+echo "Running the program..."
+./main.exe
+echo "Program exit code: $?"
 
-./main.exe 
+#./main.exe
+
 

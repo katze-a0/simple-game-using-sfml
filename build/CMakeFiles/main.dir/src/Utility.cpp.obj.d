@@ -1,5 +1,6 @@
 CMakeFiles/main.dir/src/Utility.cpp.obj: \
- C:\sfml_project_copy\src\Utility.cpp C:\sfml_project_copy\src\Utility.h \
+ C:\sfml_project_copy\src\Utility.cpp \
+ C:/sfml_project_copy/src/include/Utility.h \
  C:/sfml_project_copy/src/include/SFML/Graphics.hpp \
  C:/sfml_project_copy/src/include/SFML/Window.hpp \
  C:/sfml_project_copy/src/include/SFML/System.hpp \
@@ -246,4 +247,4 @@ CMakeFiles/main.dir/src/Utility.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
- C:\sfml_project_copy\src\GameStats.h
+ C:/sfml_project_copy/src/include/GameStats.h

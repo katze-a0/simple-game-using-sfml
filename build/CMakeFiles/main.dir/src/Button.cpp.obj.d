@@ -1,5 +1,6 @@
 CMakeFiles/main.dir/src/Button.cpp.obj: \
- C:\sfml_project_copy\src\Button.cpp C:\sfml_project_copy\src\Button.h \
+ C:\sfml_project_copy\src\Button.cpp \
+ C:/sfml_project_copy/src/include/Button.h \
  C:/sfml_project_copy/src/include/SFML/Graphics.hpp \
  C:/sfml_project_copy/src/include/SFML/Window.hpp \
  C:/sfml_project_copy/src/include/SFML/System.hpp \
@@ -238,4 +239,7 @@ CMakeFiles/main.dir/src/Button.cpp.obj: \
  C:/sfml_project_copy/src/include/SFML/Graphics/Glsl.inl \
  C:/sfml_project_copy/src/include/SFML/Graphics/Sprite.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/Text.hpp \
- C:/sfml_project_copy/src/include/SFML/Graphics/VertexBuffer.hpp
+ C:/sfml_project_copy/src/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/13.2.0/istream \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc

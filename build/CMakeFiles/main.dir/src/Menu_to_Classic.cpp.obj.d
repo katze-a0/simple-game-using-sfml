@@ -1,7 +1,6 @@
 CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: \
  C:\sfml_project_copy\src\Menu_to_Classic.cpp \
  C:/sfml_project_copy/src/include/Menu_to_classic.h \
- C:/sfml_project_copy/src/include/ImageLoader.h \
  C:/sfml_project_copy/src/include/SFML/Graphics.hpp \
  C:/sfml_project_copy/src/include/SFML/Window.hpp \
  C:/sfml_project_copy/src/include/SFML/System.hpp \
@@ -241,7 +240,7 @@ CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: \
  C:/sfml_project_copy/src/include/SFML/Graphics/Sprite.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/Text.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/VertexBuffer.hpp \
- C:/sfml_project_copy/src/include/ButtonPress.h \
+ C:/sfml_project_copy/src/include/Button.h \
  C:/sfml_project_copy/src/include/AudioEffect.h \
  C:/sfml_project_copy/src/include/SFML/Audio.hpp \
  C:/sfml_project_copy/src/include/SFML/Audio/InputSoundFile.hpp \
@@ -263,5 +262,6 @@ CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileFactory.inl \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileReader.hpp \
  C:/sfml_project_copy/src/include/SFML/Audio/SoundFileWriter.hpp \
- C:/sfml_project_copy/src/include/AudioEffect.h \
- C:/sfml_project_copy/src/include/Buttonpress.h
+ C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/13.2.0/istream \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc

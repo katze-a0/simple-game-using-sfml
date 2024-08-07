@@ -11,9 +11,9 @@ class AnimatedGIF
 {
     public:
         AnimatedGIF(const char* filename);
-        ~AnimatedGIF();
         const sf::Vector2i& getSize(void);
         void update(sf::Sprite& sprite,sf::Vector2u windowSize);
+        bool isEnded = false;
     private:
         sf::Vector2i size;
         sf::Clock clock;

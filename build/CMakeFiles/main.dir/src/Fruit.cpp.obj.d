@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/src/Fruit.cpp.obj: C:\sfml_project_copy\src\Fruit.cpp \
- C:\sfml_project_copy\src\Fruit.h \
+ C:/sfml_project_copy/src/include/Fruit.h \
  C:/sfml_project_copy/src/include/SFML/Graphics.hpp \
  C:/sfml_project_copy/src/include/SFML/Window.hpp \
  C:/sfml_project_copy/src/include/SFML/System.hpp \

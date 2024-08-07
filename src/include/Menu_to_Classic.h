@@ -2,36 +2,23 @@
 #ifndef MENU_TO_CLASSIC_H
 #define MENU_TO_CLASSIC_H
 
-#include "ImageLoader.h"
-#include "ButtonPress.h"
+#include <SFML/Graphics.hpp>
+#include "Button.h"
 #include "AudioEffect.h"
 
-class ButtonPress;
-class ImageLoader;
 
-class Menu_to_classic{
+class Menu_to_classic {
 public:
-   Menu_to_classic(ImageLoader& imageLoader); // Constructor
-   bool checkvalue(ImageLoader& imageLoader, ButtonPress& buttonPress,sf::RenderWindow& window,sf::Vector2u windowSize);
-   void draw(sf::RenderWindow& window){}
-private: 
+    Menu_to_classic(sf::Vector2u windowSize);
+    bool checkvalue(ButtonPress& buttonPress, sf::RenderWindow& window, sf::Vector2u windowSize);
+    void draw(sf::RenderWindow& window);
+
+private:
+    sf::Texture texture;
+    sf::Sprite sprite;
     int x_coordinate;
     int y_coordinate;
-    ImageLoader& imageLoader_; // Reference to ImageLoader
-   
-    ButtonPress* buttonPress_;  // Pointer to FruitManager
-
-    friend class ButtonPress; // Declare ButtonPress as a friend class
     AudioEffect* sound_;
-    
 };
 
-#endif
-
-
-
-/*  dami idea!
-game loop:
-     if (leftKeyDown && velocity < maxVel) // max vel is something like 6
-          velocity += acceleration; // something like 0.1
-    sprite.Move( velocity, 0 );*/
+#endif // MENU_TO_CLASSIC_H

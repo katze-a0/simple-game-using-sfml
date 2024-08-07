@@ -152,30 +152,6 @@ src/AnimatedGIF.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AnimatedGIF.cpp.s
 .PHONY : src/AnimatedGIF.cpp.s
 
-src/Apple.obj: src/Apple.cpp.obj
-.PHONY : src/Apple.obj
-
-# target to build an object file
-src/Apple.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Apple.cpp.obj
-.PHONY : src/Apple.cpp.obj
-
-src/Apple.i: src/Apple.cpp.i
-.PHONY : src/Apple.i
-
-# target to preprocess a source file
-src/Apple.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Apple.cpp.i
-.PHONY : src/Apple.cpp.i
-
-src/Apple.s: src/Apple.cpp.s
-.PHONY : src/Apple.s
-
-# target to generate assembly for a file
-src/Apple.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Apple.cpp.s
-.PHONY : src/Apple.cpp.s
-
 src/AudioEffect.obj: src/AudioEffect.cpp.obj
 .PHONY : src/AudioEffect.obj
 
@@ -200,53 +176,53 @@ src/AudioEffect.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/AudioEffect.cpp.s
 .PHONY : src/AudioEffect.cpp.s
 
-src/Buttonpress.obj: src/Buttonpress.cpp.obj
-.PHONY : src/Buttonpress.obj
+src/Button.obj: src/Button.cpp.obj
+.PHONY : src/Button.obj
 
 # target to build an object file
-src/Buttonpress.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Buttonpress.cpp.obj
-.PHONY : src/Buttonpress.cpp.obj
+src/Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Button.cpp.obj
+.PHONY : src/Button.cpp.obj
 
-src/Buttonpress.i: src/Buttonpress.cpp.i
-.PHONY : src/Buttonpress.i
+src/Button.i: src/Button.cpp.i
+.PHONY : src/Button.i
 
 # target to preprocess a source file
-src/Buttonpress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Buttonpress.cpp.i
-.PHONY : src/Buttonpress.cpp.i
+src/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Button.cpp.i
+.PHONY : src/Button.cpp.i
 
-src/Buttonpress.s: src/Buttonpress.cpp.s
-.PHONY : src/Buttonpress.s
+src/Button.s: src/Button.cpp.s
+.PHONY : src/Button.s
 
 # target to generate assembly for a file
-src/Buttonpress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Buttonpress.cpp.s
-.PHONY : src/Buttonpress.cpp.s
+src/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Button.cpp.s
+.PHONY : src/Button.cpp.s
 
-src/ImageLoader.obj: src/ImageLoader.cpp.obj
-.PHONY : src/ImageLoader.obj
+src/Fruit.obj: src/Fruit.cpp.obj
+.PHONY : src/Fruit.obj
 
 # target to build an object file
-src/ImageLoader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ImageLoader.cpp.obj
-.PHONY : src/ImageLoader.cpp.obj
+src/Fruit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Fruit.cpp.obj
+.PHONY : src/Fruit.cpp.obj
 
-src/ImageLoader.i: src/ImageLoader.cpp.i
-.PHONY : src/ImageLoader.i
+src/Fruit.i: src/Fruit.cpp.i
+.PHONY : src/Fruit.i
 
 # target to preprocess a source file
-src/ImageLoader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ImageLoader.cpp.i
-.PHONY : src/ImageLoader.cpp.i
+src/Fruit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Fruit.cpp.i
+.PHONY : src/Fruit.cpp.i
 
-src/ImageLoader.s: src/ImageLoader.cpp.s
-.PHONY : src/ImageLoader.s
+src/Fruit.s: src/Fruit.cpp.s
+.PHONY : src/Fruit.s
 
 # target to generate assembly for a file
-src/ImageLoader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ImageLoader.cpp.s
-.PHONY : src/ImageLoader.cpp.s
+src/Fruit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Fruit.cpp.s
+.PHONY : src/Fruit.cpp.s
 
 src/Menu_to_Classic.obj: src/Menu_to_Classic.cpp.obj
 .PHONY : src/Menu_to_Classic.obj
@@ -271,6 +247,30 @@ src/Menu_to_Classic.s: src/Menu_to_Classic.cpp.s
 src/Menu_to_Classic.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Menu_to_Classic.cpp.s
 .PHONY : src/Menu_to_Classic.cpp.s
+
+src/Utility.obj: src/Utility.cpp.obj
+.PHONY : src/Utility.obj
+
+# target to build an object file
+src/Utility.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Utility.cpp.obj
+.PHONY : src/Utility.cpp.obj
+
+src/Utility.i: src/Utility.cpp.i
+.PHONY : src/Utility.i
+
+# target to preprocess a source file
+src/Utility.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Utility.cpp.i
+.PHONY : src/Utility.cpp.i
+
+src/Utility.s: src/Utility.cpp.s
+.PHONY : src/Utility.s
+
+# target to generate assembly for a file
+src/Utility.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Utility.cpp.s
+.PHONY : src/Utility.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -308,21 +308,21 @@ help:
 	@echo ... src/AnimatedGIF.obj
 	@echo ... src/AnimatedGIF.i
 	@echo ... src/AnimatedGIF.s
-	@echo ... src/Apple.obj
-	@echo ... src/Apple.i
-	@echo ... src/Apple.s
 	@echo ... src/AudioEffect.obj
 	@echo ... src/AudioEffect.i
 	@echo ... src/AudioEffect.s
-	@echo ... src/Buttonpress.obj
-	@echo ... src/Buttonpress.i
-	@echo ... src/Buttonpress.s
-	@echo ... src/ImageLoader.obj
-	@echo ... src/ImageLoader.i
-	@echo ... src/ImageLoader.s
+	@echo ... src/Button.obj
+	@echo ... src/Button.i
+	@echo ... src/Button.s
+	@echo ... src/Fruit.obj
+	@echo ... src/Fruit.i
+	@echo ... src/Fruit.s
 	@echo ... src/Menu_to_Classic.obj
 	@echo ... src/Menu_to_Classic.i
 	@echo ... src/Menu_to_Classic.s
+	@echo ... src/Utility.obj
+	@echo ... src/Utility.i
+	@echo ... src/Utility.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

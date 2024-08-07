@@ -14,7 +14,7 @@ include_directories(src/include)
 
 file(GLOB SRC_FILES src/*.cpp)
 list(REMOVE_ITEM SRC_FILES src/main.cpp)
-add_executable(main src/main.cpp  ${SRC_FILES})
+add_executable(main src/main.cpp src/Fruit.cpp src/Button.cpp src/Utility.cpp ${SRC_FILES})
 
 
 add_custom_command(TARGET main POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/src/bin" $<TARGET_FILE_DIR:main>)

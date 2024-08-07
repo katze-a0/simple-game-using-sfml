@@ -83,11 +83,56 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\main.cpp -o CMakeFiles\main.dir\src\main.cpp.s
 
+CMakeFiles/main.dir/src/Fruit.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Fruit.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Fruit.cpp.obj: C:/sfml_project_copy/src/Fruit.cpp
+CMakeFiles/main.dir/src/Fruit.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/Fruit.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Fruit.cpp.obj -MF CMakeFiles\main.dir\src\Fruit.cpp.obj.d -o CMakeFiles\main.dir\src\Fruit.cpp.obj -c C:\sfml_project_copy\src\Fruit.cpp
+
+CMakeFiles/main.dir/src/Fruit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Fruit.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml_project_copy\src\Fruit.cpp > CMakeFiles\main.dir\src\Fruit.cpp.i
+
+CMakeFiles/main.dir/src/Fruit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Fruit.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\Fruit.cpp -o CMakeFiles\main.dir\src\Fruit.cpp.s
+
+CMakeFiles/main.dir/src/Button.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Button.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Button.cpp.obj: C:/sfml_project_copy/src/Button.cpp
+CMakeFiles/main.dir/src/Button.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Button.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Button.cpp.obj -MF CMakeFiles\main.dir\src\Button.cpp.obj.d -o CMakeFiles\main.dir\src\Button.cpp.obj -c C:\sfml_project_copy\src\Button.cpp
+
+CMakeFiles/main.dir/src/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Button.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml_project_copy\src\Button.cpp > CMakeFiles\main.dir\src\Button.cpp.i
+
+CMakeFiles/main.dir/src/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Button.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\Button.cpp -o CMakeFiles\main.dir\src\Button.cpp.s
+
+CMakeFiles/main.dir/src/Utility.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Utility.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Utility.cpp.obj: C:/sfml_project_copy/src/Utility.cpp
+CMakeFiles/main.dir/src/Utility.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Utility.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Utility.cpp.obj -MF CMakeFiles\main.dir\src\Utility.cpp.obj.d -o CMakeFiles\main.dir\src\Utility.cpp.obj -c C:\sfml_project_copy\src\Utility.cpp
+
+CMakeFiles/main.dir/src/Utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Utility.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml_project_copy\src\Utility.cpp > CMakeFiles\main.dir\src\Utility.cpp.i
+
+CMakeFiles/main.dir/src/Utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Utility.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\Utility.cpp -o CMakeFiles\main.dir\src\Utility.cpp.s
+
 CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj: C:/sfml_project_copy/src/AnimatedGIF.cpp
 CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj -MF CMakeFiles\main.dir\src\AnimatedGIF.cpp.obj.d -o CMakeFiles\main.dir\src\AnimatedGIF.cpp.obj -c C:\sfml_project_copy\src\AnimatedGIF.cpp
 
 CMakeFiles/main.dir/src/AnimatedGIF.cpp.i: cmake_force
@@ -98,26 +143,11 @@ CMakeFiles/main.dir/src/AnimatedGIF.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/AnimatedGIF.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\AnimatedGIF.cpp -o CMakeFiles\main.dir\src\AnimatedGIF.cpp.s
 
-CMakeFiles/main.dir/src/Apple.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Apple.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/Apple.cpp.obj: C:/sfml_project_copy/src/Apple.cpp
-CMakeFiles/main.dir/src/Apple.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Apple.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Apple.cpp.obj -MF CMakeFiles\main.dir\src\Apple.cpp.obj.d -o CMakeFiles\main.dir\src\Apple.cpp.obj -c C:\sfml_project_copy\src\Apple.cpp
-
-CMakeFiles/main.dir/src/Apple.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Apple.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml_project_copy\src\Apple.cpp > CMakeFiles\main.dir\src\Apple.cpp.i
-
-CMakeFiles/main.dir/src/Apple.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Apple.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\Apple.cpp -o CMakeFiles\main.dir\src\Apple.cpp.s
-
 CMakeFiles/main.dir/src/AudioEffect.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/AudioEffect.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/AudioEffect.cpp.obj: C:/sfml_project_copy/src/AudioEffect.cpp
 CMakeFiles/main.dir/src/AudioEffect.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/AudioEffect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/AudioEffect.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/AudioEffect.cpp.obj -MF CMakeFiles\main.dir\src\AudioEffect.cpp.obj.d -o CMakeFiles\main.dir\src\AudioEffect.cpp.obj -c C:\sfml_project_copy\src\AudioEffect.cpp
 
 CMakeFiles/main.dir/src/AudioEffect.cpp.i: cmake_force
@@ -127,36 +157,6 @@ CMakeFiles/main.dir/src/AudioEffect.cpp.i: cmake_force
 CMakeFiles/main.dir/src/AudioEffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/AudioEffect.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\AudioEffect.cpp -o CMakeFiles\main.dir\src\AudioEffect.cpp.s
-
-CMakeFiles/main.dir/src/Buttonpress.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Buttonpress.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/Buttonpress.cpp.obj: C:/sfml_project_copy/src/Buttonpress.cpp
-CMakeFiles/main.dir/src/Buttonpress.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Buttonpress.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Buttonpress.cpp.obj -MF CMakeFiles\main.dir\src\Buttonpress.cpp.obj.d -o CMakeFiles\main.dir\src\Buttonpress.cpp.obj -c C:\sfml_project_copy\src\Buttonpress.cpp
-
-CMakeFiles/main.dir/src/Buttonpress.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Buttonpress.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml_project_copy\src\Buttonpress.cpp > CMakeFiles\main.dir\src\Buttonpress.cpp.i
-
-CMakeFiles/main.dir/src/Buttonpress.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Buttonpress.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\Buttonpress.cpp -o CMakeFiles\main.dir\src\Buttonpress.cpp.s
-
-CMakeFiles/main.dir/src/ImageLoader.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/ImageLoader.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/ImageLoader.cpp.obj: C:/sfml_project_copy/src/ImageLoader.cpp
-CMakeFiles/main.dir/src/ImageLoader.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\sfml_project_copy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/ImageLoader.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ImageLoader.cpp.obj -MF CMakeFiles\main.dir\src\ImageLoader.cpp.obj.d -o CMakeFiles\main.dir\src\ImageLoader.cpp.obj -c C:\sfml_project_copy\src\ImageLoader.cpp
-
-CMakeFiles/main.dir/src/ImageLoader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ImageLoader.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\sfml_project_copy\src\ImageLoader.cpp > CMakeFiles\main.dir\src\ImageLoader.cpp.i
-
-CMakeFiles/main.dir/src/ImageLoader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ImageLoader.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\sfml_project_copy\src\ImageLoader.cpp -o CMakeFiles\main.dir\src\ImageLoader.cpp.s
 
 CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
@@ -176,22 +176,22 @@ CMakeFiles/main.dir/src/Menu_to_Classic.cpp.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
+"CMakeFiles/main.dir/src/Fruit.cpp.obj" \
+"CMakeFiles/main.dir/src/Button.cpp.obj" \
+"CMakeFiles/main.dir/src/Utility.cpp.obj" \
 "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj" \
-"CMakeFiles/main.dir/src/Apple.cpp.obj" \
 "CMakeFiles/main.dir/src/AudioEffect.cpp.obj" \
-"CMakeFiles/main.dir/src/Buttonpress.cpp.obj" \
-"CMakeFiles/main.dir/src/ImageLoader.cpp.obj" \
 "CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Fruit.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Button.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Utility.cpp.obj
 main.exe: CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj
-main.exe: CMakeFiles/main.dir/src/Apple.cpp.obj
 main.exe: CMakeFiles/main.dir/src/AudioEffect.cpp.obj
-main.exe: CMakeFiles/main.dir/src/Buttonpress.cpp.obj
-main.exe: CMakeFiles/main.dir/src/ImageLoader.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp

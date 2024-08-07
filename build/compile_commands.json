@@ -7,33 +7,33 @@
 },
 {
   "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Fruit.cpp.obj -c C:\\sfml_project_copy\\src\\Fruit.cpp",
+  "file": "C:/sfml_project_copy/src/Fruit.cpp",
+  "output": "CMakeFiles/main.dir/src/Fruit.cpp.obj"
+},
+{
+  "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Button.cpp.obj -c C:\\sfml_project_copy\\src\\Button.cpp",
+  "file": "C:/sfml_project_copy/src/Button.cpp",
+  "output": "CMakeFiles/main.dir/src/Button.cpp.obj"
+},
+{
+  "directory": "C:/sfml_project_copy/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Utility.cpp.obj -c C:\\sfml_project_copy\\src\\Utility.cpp",
+  "file": "C:/sfml_project_copy/src/Utility.cpp",
+  "output": "CMakeFiles/main.dir/src/Utility.cpp.obj"
+},
+{
+  "directory": "C:/sfml_project_copy/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\AnimatedGIF.cpp.obj -c C:\\sfml_project_copy\\src\\AnimatedGIF.cpp",
   "file": "C:/sfml_project_copy/src/AnimatedGIF.cpp",
   "output": "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj"
 },
 {
   "directory": "C:/sfml_project_copy/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Apple.cpp.obj -c C:\\sfml_project_copy\\src\\Apple.cpp",
-  "file": "C:/sfml_project_copy/src/Apple.cpp",
-  "output": "CMakeFiles/main.dir/src/Apple.cpp.obj"
-},
-{
-  "directory": "C:/sfml_project_copy/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\AudioEffect.cpp.obj -c C:\\sfml_project_copy\\src\\AudioEffect.cpp",
   "file": "C:/sfml_project_copy/src/AudioEffect.cpp",
   "output": "CMakeFiles/main.dir/src/AudioEffect.cpp.obj"
-},
-{
-  "directory": "C:/sfml_project_copy/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Buttonpress.cpp.obj -c C:\\sfml_project_copy\\src\\Buttonpress.cpp",
-  "file": "C:/sfml_project_copy/src/Buttonpress.cpp",
-  "output": "CMakeFiles/main.dir/src/Buttonpress.cpp.obj"
-},
-{
-  "directory": "C:/sfml_project_copy/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\ImageLoader.cpp.obj -c C:\\sfml_project_copy\\src\\ImageLoader.cpp",
-  "file": "C:/sfml_project_copy/src/ImageLoader.cpp",
-  "output": "CMakeFiles/main.dir/src/ImageLoader.cpp.obj"
 },
 {
   "directory": "C:/sfml_project_copy/build",

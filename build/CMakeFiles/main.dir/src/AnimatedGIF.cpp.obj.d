@@ -240,9 +240,6 @@ CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj: \
  C:/sfml_project_copy/src/include/SFML/Graphics/Sprite.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/Text.hpp \
  C:/sfml_project_copy/src/include/SFML/Graphics/VertexBuffer.hpp \
- C:/msys64/ucrt64/include/c++/13.2.0/iostream \
- C:/msys64/ucrt64/include/c++/13.2.0/istream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
  C:/sfml_project_copy/src/include/stb_image.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
  C:/msys64/ucrt64/include/stdarg.h \

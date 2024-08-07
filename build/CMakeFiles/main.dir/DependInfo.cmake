@@ -9,11 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/sfml_project_copy/src/AnimatedGIF.cpp" "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj" "gcc" "CMakeFiles/main.dir/src/AnimatedGIF.cpp.obj.d"
-  "C:/sfml_project_copy/src/Apple.cpp" "CMakeFiles/main.dir/src/Apple.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Apple.cpp.obj.d"
   "C:/sfml_project_copy/src/AudioEffect.cpp" "CMakeFiles/main.dir/src/AudioEffect.cpp.obj" "gcc" "CMakeFiles/main.dir/src/AudioEffect.cpp.obj.d"
-  "C:/sfml_project_copy/src/Buttonpress.cpp" "CMakeFiles/main.dir/src/Buttonpress.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Buttonpress.cpp.obj.d"
-  "C:/sfml_project_copy/src/ImageLoader.cpp" "CMakeFiles/main.dir/src/ImageLoader.cpp.obj" "gcc" "CMakeFiles/main.dir/src/ImageLoader.cpp.obj.d"
+  "C:/sfml_project_copy/src/Button.cpp" "CMakeFiles/main.dir/src/Button.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Button.cpp.obj.d"
+  "C:/sfml_project_copy/src/Fruit.cpp" "CMakeFiles/main.dir/src/Fruit.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Fruit.cpp.obj.d"
   "C:/sfml_project_copy/src/Menu_to_Classic.cpp" "CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Menu_to_Classic.cpp.obj.d"
+  "C:/sfml_project_copy/src/Utility.cpp" "CMakeFiles/main.dir/src/Utility.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Utility.cpp.obj.d"
   "C:/sfml_project_copy/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 
