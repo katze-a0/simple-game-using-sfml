@@ -101,7 +101,7 @@ int main() {
     Button* playAgainButton =  new OutlinedButton(800, 500, 210, 55, "Play Again", font, 26, Color::Black, 7, Color::Green);
     Button* viewStatsButton = new  OutlinedButton(800, 600, 210, 55, "View Stats", font, 26, Color::Black, 7, Color::White);
     Button* exitGameButton = new OutlinedButton(800, 700, 210, 55, "Exit Game", font, 26, Color::Black, 7, Color::Red);
-
+    
     Text statsText;
     statsText.setFont(font1);
     statsText.setCharacterSize(35);
